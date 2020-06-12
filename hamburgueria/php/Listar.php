@@ -41,7 +41,8 @@ $resultado = mysqli_query($database,$sql);
         <div>
         <div class="col-sm-6" >
             <div class="card" style="width: 18rem;">
-            <img class="w-100 p-3" src="https://mcdburgershowdown.com/img/mysteryburger.png" class="card-img-top" alt="...">
+
+            <img class="w-100 p-3" src="<?php echo $produtos['produto_imagem']?>" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title"><?= $produtos['produto_nome'] ?></h5>
             <p class="card-text"><?= $produtos['produto_descricao'] ?></p>

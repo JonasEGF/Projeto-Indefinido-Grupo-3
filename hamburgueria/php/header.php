@@ -16,17 +16,10 @@
         align-items: end;
         flex-direction: column-reverse;
     };
-    /* .IBAGE{
-        width: 100%;
-        height: 100%;
-        object-fit: none;
-        object-position: 0 1;
-    } */
 </style>
 
 <body >
     <div class="topo">
-    <!-- <img class="IBAGE"src="https://i.imgur.com/drTTk10.png" alt=""> -->
         <div class="d-flex flex-column h-auto" style="width: 100%;">    
             <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
                 <a class="navbar-brand" href="#">BIFE REAL BURGUER</a>
@@ -38,12 +31,12 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Contato</a>
+                            <a class="nav-link" href="">Carrinho</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        </div>     
+        </div>
     </div>
 
 
