@@ -22,7 +22,6 @@ $resultado = mysqli_query($database,$sql);
         justify-content: center;
         flex-direction: row;
         background-color: transparent;
-        
     }
     .amendoim{
         align-items: center;
@@ -47,7 +46,7 @@ $resultado = mysqli_query($database,$sql);
             <h5 class="card-title"><?= $produtos['produto_nome'] ?></h5>
             <p class="card-text"><?= $produtos['produto_descricao'] ?></p>
             <h2 class="card-title"><?= $produtos['produto_preco'] ?></h2>
-            <a href="#" class="btn btn-success">Adicionar</a>
+            <?php echo '<a href="carrinho.php?add=carrinho&id='.$produtos['produto_codigo'].'" class="btn btn-success">Adicionar</a>'?>
             </div>
             </div>
             <br>
@@ -56,6 +55,7 @@ $resultado = mysqli_query($database,$sql);
     <?php endwhile; ?>
     </div>     
     </div>
+
 
 </body>
     
