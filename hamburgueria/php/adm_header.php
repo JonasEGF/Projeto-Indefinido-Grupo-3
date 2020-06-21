@@ -29,9 +29,12 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href ="index.php">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href ="adm_index.php">Home <span class="sr-only">(current)</span></a>
                         <li class="nav-item">
-                            <a class="nav-link" href="carrinho.php">Carrinho</a>
+                            <a class="nav-link" href="submit.php">Adicionar Itens</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="adm_listar.php">Listar Itens</a>
                         </li>
                     </ul>
                 </div>
