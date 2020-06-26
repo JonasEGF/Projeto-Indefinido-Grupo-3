@@ -24,12 +24,12 @@
                 <label for="Nome" class="col-sm-2 col-form-label">CODIGO</label>
                 <input type="text"  name="produto_codigo" id="produto_codigo">
                 </div>
-
+                        
                 <div class="form-group row">
                 <label for="Nome" class="col-sm-2 col-form-label">NOME</label>
                 <input type="text"  name="produto_nome" id="produto_nome">
                 </div>
-
+                    
                 <div class="form-group row">
                 <label for="Nome" class="col-sm-2 col-form-label">PRECO</label>
                 <input type="text"  name="produto_preco" id="produto_preco">

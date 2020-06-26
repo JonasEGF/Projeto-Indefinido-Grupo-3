@@ -17,5 +17,4 @@ $rs = mysqli_prepare($database,$sql);
 mysqli_stmt_bind_param($rs,'isdss',$produto_codigo,$produto_nome,$produto_preco,$produto_descricao,$path);
 mysqli_stmt_execute($rs);
 
-
 ?>
